@@ -35,4 +35,4 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## Acknowledgements
 - Special thanks to the medical professionals and data scientists whose expertise has been invaluable in developing this model.
-- Dataset provided by [Dataset Source].
+- Dataset provided by [Kaggle](https://www.kaggle.com/datasets/cdeotte/jpeg-melanoma-256x256).
