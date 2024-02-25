@@ -24,8 +24,8 @@ Ensure you have Python 3.6+ installed on your system. Then, follow the steps bel
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/bhavya1600/melanoma-classification-custom-image-tabular-model.git
+cd melanoma-classification-custom-image-tabular-model
 ```
 
 2. Install required packages:
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ## Usage
 To run the model, navigate to the project directory and execute the Jupyter Notebook:
 ```bash
-jupyter notebook Melanoma_Custom_Integrated_Image_Tabular_DenseNet16.ipynb
+jupyter notebook Melanoma_Custom_Integrated_Image_Tabular_DenseNet161.ipynb
 ```
 
 Follow the instructions within the notebook for detailed steps on data preprocessing, model training, and evaluation.
