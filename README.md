@@ -1,38 +1,49 @@
 
-# Melanoma Classification with Custom Integrated CNN-Tabular Model
+# Custom Integrated Image-Tabular Model for Melanoma Classification
 
-## Introduction
-This project introduces a groundbreaking approach to Melanoma detection by leveraging a custom integrated model that combines Convolutional Neural Networks (CNN) with tabular data analysis. This hybrid model not only analyzes medical images but also considers critical biological factors such as age, sex, skin color, and other relevant variables to enhance the accuracy of Melanoma classification.
+## Overview
+This project presents a groundbreaking approach to melanoma classification, combining Convolutional Neural Networks (CNN) with a tabular model to analyze both image data and structured data (e.g., age, sex, skin color, and other biological factors). This custom integrated model leverages the strengths of both worlds to achieve higher accuracy and provides a more comprehensive analysis than traditional image-based models.
+
+## Features
+- **Custom Integrated Model**: Unique CNN + Tabular model architecture to consider both image features and patient metadata.
+- **Comprehensive Data Analysis**: Utilizes a wide range of data points, including patient demographics and biological factors, alongside image data.
+- **High Accuracy**: Designed to improve melanoma classification accuracy by considering multiple data dimensions.
+- **FastAI Integration**: Built using FastAI's powerful libraries for both vision and tabular data, ensuring efficient training and prediction.
 
 ## Technology Stack
-- Python 3.x
-- TensorFlow 2.x
-- Keras
-- Pandas
-- NumPy
-- Matplotlib
+- Python
+- OpenCV for image preprocessing
+- NumPy for numerical computations
+- Pandas for data manipulation
+- Matplotlib for data visualization
+- FastAI for deep learning
+- `image_tabular` library for integrating image and tabular data in deep learning models
 
-## Key Features
-- **Custom Integrated Model**: A unique blend of CNN for image processing and a tabular data model to incorporate patient metadata.
-- **Enhanced Accuracy**: By considering both image and non-image data, our model provides a more accurate diagnosis compared to traditional image-only models.
-- **Comprehensive Dataset**: Utilizes a rich dataset that includes both dermatoscopic images of skin lesions and detailed patient metadata.
-- **Interpretability**: Offers insights into the factors influencing the classification decision, making it a valuable tool for medical professionals.
+## Installation and Setup
+Ensure you have Python 3.6+ installed on your system. Then, follow the steps below to set up your environment:
 
-## Installation
-To set up this project, follow these steps:
-1. Clone this repository to your local machine.
-2. Ensure you have Python 3.x installed.
-3. Install the required libraries using `pip install -r requirements.txt`.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd <repository-name>
+```
+
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
-To use the Melanoma Custom Integrated Image-Tabular DenseNet16 Model, follow the notebook `Melanoma_Custom_Integrated_Image_Tabular_DenseNet16.ipynb` which guides you through the process from data preprocessing to model training and evaluation.
+To run the model, navigate to the project directory and execute the Jupyter Notebook:
+```bash
+jupyter notebook Melanoma_Custom_Integrated_Image_Tabular_DenseNet16.ipynb
+```
+
+Follow the instructions within the notebook for detailed steps on data preprocessing, model training, and evaluation.
 
 ## Contributing
-Contributions to enhance the functionality and accuracy of this model are welcome. Please read `CONTRIBUTING.md` for details on our code of conduct, and the process for submitting pull requests.
+Contributions are welcome! If you have improvements or bug fixes, please open an issue or pull request.
 
 ## License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+This project is released under the MIT License.
 
-## Acknowledgements
-- Special thanks to the medical professionals and data scientists whose expertise has been invaluable in developing this model.
-- Dataset provided by [Kaggle](https://www.kaggle.com/datasets/cdeotte/jpeg-melanoma-256x256).
